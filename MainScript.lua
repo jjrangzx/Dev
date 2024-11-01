@@ -1510,7 +1510,7 @@ GUI.CreateCustomToggle({
 local GeneralSettings = GUI.CreateDivider2("General Settings")
 local ModuleSettings = GUI.CreateDivider2("Module Settings")
 local GUISettings = GUI.CreateDivider2("GUI Settings")
-local VWSettings = GUI.CreateDivider2("VW Settings")
+local VWSettings = GUI.CreateDivider2("Extra")
 local StreamerModeToggle = {Enabled = false}
 StreamerModeToggle = VWSettings.CreateToggle({
 	Name = "StreamerMode",
