@@ -1376,7 +1376,7 @@ if shared.VapeExecuted then
 				dividerlabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 				dividerlabel.TextSize = 20
 				dividerlabel.Font = Enum.Font.SourceSans
-				dividerlabel.Text = "  VW "..(translations[text] ~= nil and translations[text] or text)
+				dividerlabel.Text = ""..(translations[text] ~= nil and translations[text] or text)
 				dividerlabel.TextXAlignment = Enum.TextXAlignment.Left
 				dividerlabel.LayoutOrder = amount
 				dividerlabel.Parent = children
