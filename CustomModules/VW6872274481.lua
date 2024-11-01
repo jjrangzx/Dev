@@ -4700,7 +4700,7 @@ pcall(function()
 			if isStaff then StaffDetector_Functions.Trigger(plr, "PermissionController") end
 		end
 		StaffDetector = GuiLibrary.ObjectsThatCanBeSaved.UtilityWindow.Api.CreateOptionsButton({
-			Name = "StaffDetector [NEW]",
+			Name = "StaffDetector",
 			Function = function(call)
 				if call then
 					for i,v in pairs(game:GetService("Players"):GetPlayers()) do
@@ -5979,7 +5979,7 @@ run(function()
     end
 	local checked_data = {}
 	StaffDetector = GuiLibrary.ObjectsThatCanBeSaved.VoidwareWindow.Api.CreateOptionsButton({
-		Name = 'StaffDetector - Roblox',
+		Name = 'RobloxStaffDetector',
 		Function = function(calling)
 			if calling then 
 				if (not AutoCheck.Enabled) then
